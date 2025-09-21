@@ -7,6 +7,9 @@ git push origin main
 git --amend     (to amend the last commit)
 git remote add origin {website name}                 // to connect to a repo url
 git remote -v                                        // to view the url's associated with the git repo
+git add ../                                          // add all files in the outer foler
+git pull origin <branch> --rebase
+git push --set-upstream origin <branch name>
 
 
 LINUX/UBUNTU:
