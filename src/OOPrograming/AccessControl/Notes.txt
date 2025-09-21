@@ -1,0 +1,27 @@
+
+|                    | Same Class | Same Package |  SubClass  |  SubClass  |        Elsewhere
+|                    |            | (diff class) | (same pkg) | (diff pkg) | (diff pkg not sub class)
+------------------------------------------------------------------------------------------------------
+| public  Modifier   |      *     |       *      |     *      |      *     |      *
+------------------------------------------------------------------------------------------------------
+| protected Modifier |    *       |    *         |      *     |      *     |
+------------------------------------------------------------------------------------------------------
+| private modifier   |       *    |              |            |            |
+------------------------------------------------------------------------------------------------------
+| No Modifier        |       *    |     *        |     *      |            |
+------------------------------------------------------------------------------------------------------ 
+
+
+## Packages are of two types:
+1. user-defined
+2. In-built packages
+
+In-built pavckages are not required to import.
+In-built packages include:
+
+1. java.lang
+2. java.import
+3. java.util
+4. java.applets
+5. java.awt
+6. java.net

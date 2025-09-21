@@ -1,0 +1,14 @@
+Methods which does not have a body and the class containing them totally depends on the sub-classes to provide the body,
+are called abstract methods and class containing one or more than one abstract method is called an abstract class.
+
+sub-classes which contains the body must override the methods in the super class.
+
+We cannot create objects of an abstract class. Thus, constructors of an abstract class is not allowed.
+
+Abstract static method cannot be made as static methods cannot be overridden and abstract methods should be overriden.
+
+But we can create static methods in abstract class.
+
+Abstract class can have normal method.
+As multiple inheritance is not supported in java thus a class cannot extends more than one class.
+

@@ -1,0 +1,17 @@
+GIT:  
+
+git init
+git commit  (for mac: It will open an editor in terminal, press i to insert message on top, then press esc+ :wq) (press :q to go to previous menu)
+git commit -m "your message"
+git push origin main
+git --amend     (to amend the last commit)
+git remote add origin {website name}                 // to connect to a repo url
+git remote -v                                        // to view the url's associated with the git repo
+
+
+LINUX/UBUNTU:
+
+cd ..  to go to previous directory
+cd /  to go to home
+ctrl + c to close
+tail -500f <logfilename>
