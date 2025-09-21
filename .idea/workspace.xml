@@ -4,53 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7cb649d-82f5-428d-917c-8e4a4abefe1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Commands.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgramingJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Algorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/CeilingFloorAndBoundConditions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/FindInInfiniteArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/FirstAndLastIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/MountainArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/OccourenceOfBlankPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/RotatedBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericsAndLambdaExpressions/CustomArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/AbstractionAndInterfaces/AdminInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/AbstractionAndInterfaces/DoctorsInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/AbstractionAndInterfaces/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/AbstractionAndInterfaces/NewsPaper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/AbstractionAndInterfaces/NewsReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/AbstractionAndInterfaces/Notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/AbstractionAndInterfaces/Patient1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/AbstractionAndInterfaces/PharmacyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/AbstractionAndInterfaces/RnDInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/AccessControl/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/AccessControl/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/AccessControl/Notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/AccessControl/SubClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/ObjectDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/Oop1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/Principles/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/Principles/BoxWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/Principles/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/Principles/SubClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/StaticSinglton/InnerClasses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/StaticSinglton/Singlton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/StaticSinglton/Static.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPrograming/StaticSinglton/StaticInitialisation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/RecursivePatterns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/CycleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/SelectionSort.java" afterDir="false" />
-    </list>
+    <list default="true" id="e7cb649d-82f5-428d-917c-8e4a4abefe1c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +33,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
