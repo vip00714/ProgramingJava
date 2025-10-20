@@ -17,7 +17,7 @@ public class InsertionSort {
             for (int j = i+1; j>0; j--) {
                 if (inArray[j] < inArray[j-1]) {
 
-                    BubbleSort.swap(inArray, j, j-1);
+                    Resources.HelperMethods.swap(inArray, j, j-1);
 
                 }
             }

@@ -1,5 +1,7 @@
 package BinarySearch;
 
+import Resources.HelperMethods;
+
 public class FindInInfiniteArray {
 
     public static void main(String[] args) {
@@ -20,7 +22,7 @@ public class FindInInfiniteArray {
             left = temp + 1;
 
         }
-        return Algorithm.binarySearch(inArray, number, left, right);
+        return HelperMethods.binarySearch(inArray, number, left, right);
 
     }
 

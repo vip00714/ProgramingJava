@@ -1,0 +1,9 @@
+Generics were introduced to provide a tighter type checks at compile time and to support generic programing.
+Generics are implemented at compile time.
+
+1. generic types<T> with Primitive types cannot be instantiate.
+2. instance of type parameters cannot be created.
+3. Type parameters fields cannot be declared static. because static fields are at class level, and they are used by all the
+   non-static members of the class.
+
+

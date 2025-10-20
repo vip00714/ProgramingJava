@@ -1,0 +1,4 @@
+// Recursion:
+
+1. The variables that we want to pass in the recursive function calls, should be in the arguments, so that they are
+available to the function for all recursive calls.

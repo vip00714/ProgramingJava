@@ -4,14 +4,15 @@ import java.util.Arrays;
 
 public class MergeSort {
     public static void main(String[] args) {
-        int[] inArray = { 8, 3, 4, 12, 5, 6 };
-        int [] inArray2 = {5,4,3,2,1};
+        int[] inArray = {8, 3, 4, 12, 5, 6};
+        int[] inArray2 = {5, 4, 3, 2, 1};
 
-        System.out.println(Arrays.toString(mergeSort(inArray)));
-        mergeSortInPlace(inArray2, 0, inArray2.length);
+//        System.out.println(Arrays.toString(mergeSort(inArray)));
+//        mergeSortInPlace(inArray2, 0, inArray2.length);
+//        System.out.println(Arrays.toString(inArray2));
+
+        methodInPlace(inArray2, 0, inArray2.length-1);
         System.out.println(Arrays.toString(inArray2));
-
-
     }
 
     static int[] mergeSort(int inArray[]) {
@@ -65,24 +66,24 @@ public class MergeSort {
                                                                          // being modified.
 
         if ((right - left) == 1) {
-             return;
+            return;
         }
-        int mid = left + (right - left)/2;
+        int mid = left + (right - left) / 2;
 
         mergeSortInPlace(inArray, left, mid);
         mergeSortInPlace(inArray, mid, right);
-       
+
         mergeInPlace(inArray, left, mid, right);
     }
 
     static void mergeInPlace(int[] inArray, int left, int mid, int right) {
 
         int[] newArray = new int[right - left];
-        int i = left, j = mid, k = 0;
+        int i = left, j = mid, k = 0;        // start and mid are pointers as i, j in normal merge sort above.
 
 
         while (i < mid && j < right) {
-            if(inArray[i] < inArray[j]) {
+            if (inArray[i] < inArray[j]) {
                 newArray[k] = inArray[i];
                 i++;
             } else {
@@ -105,25 +106,65 @@ public class MergeSort {
             k++;
         }
 
-        for (int l = 0; l < newArray.length; l++) {
-            inArray[left + l] = newArray[l];               // can use Arrays.copyOf to optimize. 
+        for (int l = 0; l < newArray.length; l++) {                   // can use Arrays.copyOf to optimize.
+            inArray[left + l] = newArray[l];
         }
-       
 
-        
+
     }
 
 
+    static void methodInPlace(int[] arr, int start, int end) {
+        if ((end - start) == 1) {
+            return;
+        }
+        int mid = start + (end - start) / 2;
+        methodInPlace(arr, start, mid);
+        methodInPlace(arr, mid, end);
+
+        mergeInPlacee(arr, start, mid, end);
+    }
+
+    static void mergeInPlacee(int [] arr, int start, int mid, int end) {
+
+        int[] newArray = new int[end - start];
+        int i = start;
+        int j = mid;
+        int k = 0;
+
+        while (i < mid && j <= end) {
+
+            if (arr[i] < arr[j]) {
+                newArray[k] = arr[i];
+                i++;
+            } else {
+                newArray[k] = arr[j];
+                j++;
+
+            }
+            k++;
+        }
+        // eithr one of the below is true.
+        while (i < mid) {
+            newArray[k] = arr[i];
+            i++;
+            k++;
+
+        }
+
+        while (j <= end) {
+            newArray[k] = arr[j];
+            j++;
+            k++;
+
+        }
 
 
 
+        for (int l = 0; l < newArray.length; l++) {                // we can use copyOf method to optimize
+            arr[start+l] = newArray[l];
+        }
 
 
-
-
-
-
-
-
-
+    }
 }

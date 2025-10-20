@@ -9,9 +9,7 @@ public class BubbleSort {
         for (int i = 0; i < inArray.length; i++) {
             for (int j = 1; j < inArray.length-i; j++) {
                 if (inArray[j] < inArray[j-1]) {
-                    int temp = inArray[j];
-                    inArray[j] = inArray[j-1];
-                    inArray[j-1] = temp;
+                    Resources.HelperMethods.swap(inArray, j, j-1 );
                 }
 
             }
@@ -39,18 +37,12 @@ public class BubbleSort {
 
     }
 
-    static void swap (int[] inArray, int first, int second) {
-        int temp = inArray[first];
-        inArray[first] = inArray[second];
-        inArray[second]  = temp;
-    }
-
     public static void main(String[] args) {
 
            int[] inArray = {5, 4, 3, 2, 1, 0};
-           //System.out.println(Arrays.toString(bubbleSort(inArray)));
-           recursiveBubbleSort(inArray, inArray.length, 1);
-           System.out.println(Arrays.toString(inArray));
+           System.out.println(Arrays.toString(bubbleSort(inArray)));
+//           recursiveBubbleSort(inArray, inArray.length, 1);
+//           System.out.println(Arrays.toString(inArray));
 
     }
 

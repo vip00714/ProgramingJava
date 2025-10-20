@@ -1,5 +1,7 @@
 package Sorting;
 
+import Resources.HelperMethods;
+
 import java.util.Arrays;
 
 public class SelectionSort {
@@ -25,7 +27,7 @@ public class SelectionSort {
                 }
 
             }
-            BubbleSort.swap(inArray, maxIndex, inArray.length - i - 1);
+            HelperMethods.swap(inArray, maxIndex, inArray.length - i - 1);
         }
 
         return inArray;

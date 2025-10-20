@@ -1,4 +1,4 @@
-package GenericsAndLambdaExpressions;
+package OOPrograming.GenericsAndLambdaExpressions;
 
 import java.util.Arrays;
 
